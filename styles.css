@@ -1,0 +1,43 @@
+  .container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    margin-right: 20px;
+    font-size: 16px; 
+  }
+  
+  .item {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    cursor: move;
+  }
+  
+  .item.dragged {
+    opacity: 0.5;
+    background-color: #a0a0a0;
+  }
+  
+  .container.highlight {
+    border-color: blue;
+  }
+  
+  @media (max-width: 320px) {
+    .container {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      float: none;
+      margin-right: 0;
+      font-size: 18px; 
+    }
+  }
+  
+  
+  
+  
+ 
+  
